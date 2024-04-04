@@ -1,0 +1,294 @@
+body,
+html {
+  background-color: #8d98a7;
+  margin: 0;
+  padding: 0;
+}
+
+.container-pengenalan {
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url("aset/bgpeng3.jpg"); /* Tambahkan URL gambar background di sini */
+  background-size: cover;
+  background-position: center;
+  color: #7f7f7f; /* Ubah warna teks agar terlihat jelas di atas latar belakang gambar */
+  font-weight: 900;
+  height: 400px;
+}
+
+.content-pengenalan {
+  flex: 1;
+}
+
+.content-pengenalan h1 {
+  color: inherit;
+}
+.content-pengenalan p {
+  color: inherit; /* Wariskan warna teks yang diatur di .container */
+}
+
+.container-fitur {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #8d98a7;
+}
+
+.feature-box {
+  margin: 50px auto;
+  background-color: #dcccbb;
+  border-radius: 25px;
+  padding: 20px;
+  width: calc(15% - 40px);
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box h3 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.feature-box p {
+  font-size: 20px;
+  color: #666;
+  text-align: center;
+}
+
+.container-detail {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("aset/bgpeng3.jpg"); /* Tambahkan URL gambar background di sini */
+  background-size: cover;
+  background-position: center;
+}
+
+.package {
+  align-items: center;
+  margin: 60px;
+  background-color: #646e78; /* Warna latar belakang */
+  border-radius: 25px;
+  padding: 20px;
+  width: calc(15% - 20px);
+  transition: transform 0.3s ease; /* Efek hover */
+  text-align: center;
+}
+
+.package:hover {
+  transform: translateY(-5px);
+}
+
+.package h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #dcccbb;
+  margin-bottom: 10px;
+}
+
+.details {
+  padding: 10px 0;
+  font-weight: 900;
+}
+
+.details p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.details ul {
+  font-size: 20px;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.details ul li {
+  font-size: 20px;
+  color: #dcccbb;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+/* galeri */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 60px auto;
+  background-color: #646e78;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  animation-fill-mode: forwards; /* Tahan transisi setelah animasi selesai */
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-shadow: #333;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.setgambar {
+  width: 100%;
+  max-height: 700px;
+}
+
+/* bayar */
+.form-container {
+  font-family: Arial, sans-serif;
+  background-image: url("aset/bgpeng3.jpg"); /* Ganti 'background.jpg' dengan nama file gambar latar belakang yang Anda inginkan */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Menata konten vertikal */
+  height: 100vh;
+  padding: 20px; /* Jarak antara tepi kontainer dan elemen-elemen di dalamnya */
+  box-sizing: border-box; /* Memastikan padding tidak menambah lebar/tinggi total */
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Jarak antara judul dan formulir */
+  font-weight: 900;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("aset/arrow.png"); /* Ganti 'dropdown-arrow.png' dengan ikon panah drop-down yang Anda inginkan */
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+.form-group select:focus,
+.form-group input[type="text"]:focus {
+  outline: none;
+  border-color: #646e78;
+}
+
+.btn-submit {
+  background-color: #646e78;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #8d98a7;
+}
