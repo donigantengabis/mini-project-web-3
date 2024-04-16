@@ -2,10 +2,10 @@
 // Memeriksa apakah form pendaftaran telah disubmit
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sambungkan ke database (sesuaikan dengan detail koneksi Anda)
-    $servername = "sql308.infinityfree.com";
-    $username = "if0_36302101";
-    $password = "rfviBv3md7GE";
-    $dbname = "if0_36302101_webtvkabel";
+    $servername = "localhost";
+    $username = "id22050217_doni";
+    $password = "Doni#12345";
+    $dbname = "id22050217_webtvkabel";
 
     // Buat koneksi
     $conn = new mysqli($servername, $username, $password, $dbname);

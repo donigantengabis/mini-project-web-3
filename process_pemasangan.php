@@ -1,9 +1,9 @@
 <?php
 // Konfigurasi koneksi ke database
-$servername = "sql308.infinityfree.com";
-$username = "if0_36302101";
-$password = "rfviBv3md7GE";
-$dbname = "if0_36302101_webtvkabel";
+$servername = "localhost";
+$username = "id22050217_doni";
+$password = "Doni#12345";
+$dbname = "id22050217_webtvkabel";
 
 // Membuat koneksi
 $koneksi = mysqli_connect($servername, $username, $password, $dbname);

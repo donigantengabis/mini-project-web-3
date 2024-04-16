@@ -29,6 +29,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#pemasangan">Pemasangan</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logout.php">Sign Out</a>
+            </li>
           </ul>
         </div>
       </div>
